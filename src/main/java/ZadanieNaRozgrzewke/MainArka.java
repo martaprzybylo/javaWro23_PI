@@ -3,7 +3,7 @@ package ZadanieNaRozgrzewke;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class MainArka {
 
    private static final int upperBound = 100;
 
@@ -11,7 +11,6 @@ public class Main {
         Random random = new Random();
         int randNumber = random.nextInt(upperBound);
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Podaj liczbê");
 
         for (int i = 0; i<7; i++){
