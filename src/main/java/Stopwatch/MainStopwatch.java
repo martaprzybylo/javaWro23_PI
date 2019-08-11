@@ -16,7 +16,7 @@ public class MainStopwatch {
         for (int number:table) {
             result = number*c;
         }
-        System.out.println(stopwatch.stop()/100000000);
+        System.out.println(stopwatch.stop());
     }
 
 }
