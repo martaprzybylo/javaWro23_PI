@@ -16,6 +16,6 @@ public class Stopwatch {
         if (!isRunning)
             return -1;
         isRunning=false;
-        return (System.nanoTime()-startTime)/1000;
+        return (System.nanoTime()-startTime)/1000000000;
     }
 }
