@@ -1,4 +1,4 @@
-package Sort;
+package Sort.bubbleSort;
 
 public class BubbleSort {
     public int [] sort (int [] table) {

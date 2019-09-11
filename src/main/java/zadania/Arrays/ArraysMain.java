@@ -1,8 +1,8 @@
-package zadaniaDomowe.programowanie1.zadaniaUzupelniajace.Arrays;
+package zadania.Arrays;
 
 public class ArraysMain {
-    protected static int[] table = new int [20];
-    protected int sum, sum2, sum3;
+    private static int[] table = new int [20];
+    private int sum, sum2, sum3;
 
     public static void main(String[] args) {
         ArraysMain arraysMain = new ArraysMain();
@@ -77,7 +77,7 @@ public class ArraysMain {
         int sum4 = 0;
         for (int i = 0; i<table.length;i++){
             sum4+=table[i];
-            if(sum4>10){
+            if(sum4 >10){
                 System.out.println(i+1);
                 break;
             }
